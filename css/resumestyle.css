@@ -1,0 +1,206 @@
+body {
+  width: auto;
+}
+
+#resume-all {
+  border: 1px;
+  width: 900px;
+  max-height: 1070px;
+  margin: 0 auto;
+  display: block;
+  background-color: beige;
+  box-shadow: 6px 8px 10px -6px black;
+  border-radius: 6px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 155px;
+  display: block;
+  margin: auto;
+}
+
+nav {
+  margin-left: 48px;
+  margin-right: 48px;
+  padding-top: 54px;
+  height: 1015px;
+  position: relative;
+  top: 0px;
+  display: inline-block;
+  width: 300px;
+  background-color: #004379;
+}
+
+hr {
+  width: 56px;
+  margin-left: 2px;
+}
+
+#content {
+  margin-top: -53px;
+  display: inline-block;
+}
+
+#sidepanel {
+  color: white;
+}
+#sidepanel .nav-title {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+#contact-details {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+#skills {
+  margin-bottom: 40px;
+}
+
+.information {
+  padding-right: 65px;
+  padding-left: 56px;
+  font-size: 13px;
+  font-family: "Assistant";
+}
+
+#desktop-name {
+  font-family: "Glacial Indifference", sans-serif;
+  color: #225484;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+#mobile-name {
+  font-family: "Glacial Indifference", sans-serif;
+  font-size: 35px;
+  margin-bottom: 10px;
+  display: none;
+}
+
+#mainpanel {
+  margin-top: 30px;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.title {
+  color: #2aa9d2;
+}
+
+.school-year {
+  font-weight: lighter;
+  color: gray;
+}
+
+#envelope_icon::before {
+  font-family: "FontAwesome";
+  content: "\f2b6";
+  margin: 0 5px 0 -15px;
+}
+
+#envelope_icon::before {
+  font-family: "FontAwesome";
+  content: "\f2b6";
+  margin: 0 5px 0 -15px;
+}
+
+#location_icon::before {
+  font-family: "FontAwesome";
+  content: "\f3c5";
+  margin: 0 5px 0 -15px;
+}
+
+#number_icon::before {
+  font-family: "FontAwesome";
+  content: "\f095";
+  margin: 0 5px 0 -15px;
+}
+
+#other .information .list-nav li::before {
+  font-family: "FontAwesome";
+  content: "\f024";
+  margin: 0 5px 0 -15px;
+}
+
+@media (max-width: 425px) {
+  .information .list-nav {
+    padding-left: 10px;
+  }
+  #resume-all {
+    width: 95%;
+    max-height: 100%;
+    box-shadow: 0px 0px 0px 0px;
+  }
+  #content {
+    margin-top: 10px;
+    padding-left: 5%;
+    display: block;
+    padding-bottom: 25px;
+  }
+  hr {
+    display: none;
+  }
+  nav {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-bottom: 10px;
+  }
+  #desktop-name {
+    display: none;
+  }
+  #mobile-name {
+    text-align: center;
+    display: block;
+  }
+}
+@media (min-width: 426px) and (max-width: 769px) {
+  img {
+    width: 180px;
+  }
+  hr {
+    display: none;
+  }
+  #desktop-name {
+    display: none;
+  }
+  #mobile-name {
+    text-align: center;
+    display: block;
+  }
+  #resume-all {
+    width: 95%;
+    max-height: 100%;
+  }
+  #content {
+    margin-top: 10px;
+    padding-left: 10%;
+    display: block;
+    padding-bottom: 25px;
+  }
+  nav {
+    width: 85%;
+    height: auto;
+    margin: 0px 7.5%;
+    padding-bottom: 10px;
+    display: block;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+}
+@media (min-width: 769px) {
+  #content {
+    display: inline-block;
+  }
+  #nav {
+    display: inline-block;
+  }
+}/*# sourceMappingURL=resumestyle.css.map */
